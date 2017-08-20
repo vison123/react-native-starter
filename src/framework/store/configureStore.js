@@ -1,14 +1,16 @@
-
+/**
+ * Created by vison on 17/8/20.
+ */
 import { createStore, applyMiddleware, compose } from 'redux';
 import thunkMiddleware from 'redux-thunk';
 import promiseMiddleware from 'redux-promise';
-import devTools from 'remote-redux-devtools';
 import createLogger from 'redux-logger';
+import devTools from 'remote-redux-devtools';
 
 import { enableBatching } from 'redux-batched-actions';
 import rootReducer from '../reducer';
 
-const middleware = [thunkMiddleware, promiseMiddleware, cacheMiddleware];
+const middleware = [thunkMiddleware, promiseMiddleware];
 
 export default function configureStore(initialState) {
   let finalCreateStore;

@@ -1,5 +1,5 @@
 import { AppRegistry } from 'react-native';
 
-import App from './app/framework/container';
+import App from './src/app';
 
-AppRegistry.registerComponent('App', () => App);
+AppRegistry.registerComponent('RNTest', () => App);
