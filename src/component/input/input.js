@@ -1,11 +1,15 @@
+/**
+ * Created by vison on 17/8/20.
+ */
 import React from 'react';
+import PropTypes from 'prop-types';
 import {
   TextInput,
   View,
   Image,
 } from 'react-native';
-import DictIcon from '../../constants/dictIcon';
-import DictStyle from '../../constants/dictStyle';
+import DictIcon from '../../constant/dictIcon';
+import DictStyle from '../../constant/dictStyle';
 
 export default class Input extends React.Component {
 
@@ -13,20 +17,20 @@ export default class Input extends React.Component {
     containerStyle: View.propTypes.style,
     iconStyle: View.propTypes.style,
     inputStyle: TextInput.propTypes.style,
-    inputType: React.PropTypes.string,
-    placeholder: React.PropTypes.string,
-    placeholderTextColor: React.PropTypes.string,
-    maxLength: React.PropTypes.number,
-    value: React.PropTypes.string,
-    field: React.PropTypes.string.isRequired,
-    onFocus: React.PropTypes.func,
-    onLayout: React.PropTypes.func,
-    icon: React.PropTypes.any,
-    img: React.PropTypes.any,
-    onChangeText: React.PropTypes.func,
-    defaultValue: React.PropTypes.any,
-    showImg: React.PropTypes.bool,
-    textAlign: React.PropTypes.any
+    inputType: PropTypes.string,
+    placeholder: PropTypes.string,
+    placeholderTextColor: PropTypes.string,
+    maxLength: PropTypes.number,
+    value: PropTypes.string,
+    field: PropTypes.string.isRequired,
+    onFocus: PropTypes.func,
+    onLayout: PropTypes.func,
+    icon: PropTypes.any,
+    img: PropTypes.any,
+    onChangeText: PropTypes.func,
+    defaultValue: PropTypes.any,
+    showImg: PropTypes.bool,
+    textAlign: PropTypes.any
   };
 
   static defaultProps = {

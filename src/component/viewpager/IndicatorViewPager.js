@@ -1,8 +1,9 @@
 /**
- * Created by tangzhibin on 16/3/23.
+ * Created by vison on 17/8/20.
  */
 
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { StyleSheet, View } from 'react-native';
 import ViewPager from './ViewPager';
 

@@ -1,6 +1,7 @@
 /**
- * Created by tangzhibin on 16/3/23.
+ * Created by vison on 17/8/20.
  */
+
 import ViewPager from './ViewPager';
 import IndicatorViewPager from './IndicatorViewPager';
 import PagerDotIndicator from './indicator/PagerDotIndicator';

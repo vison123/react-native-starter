@@ -10,8 +10,9 @@ import {Router, Scene} from 'react-native-router-flux';
 
 import Login from './biz/login/login';
 
-const store = configureStore();
+const store = configureStore({});
 const setup = () => {
+    store.dispatch(initApp());
     return () => (
         <Provider store={store}>
             <Router sceneStyle={{ backgroundColor: 'white' }}>

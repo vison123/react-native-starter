@@ -9,7 +9,5 @@ export const setInitState = createAction(Actions.SET_INIT_STATE);
 
 export const initApp = () => (dispatch, getState) => {
     const store = getState();
-    dispatch(batchActions([
-        setInitState(true),
-    ]));
+    dispatch(setInitState(true));
 };

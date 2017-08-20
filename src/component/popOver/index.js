@@ -1,7 +1,8 @@
 /**
- * Created by baoyinghai on 7/7/16.
+ * Created by vison on 17/8/20.
  */
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import {
   StyleSheet,
   Dimensions,
