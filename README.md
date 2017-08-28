@@ -17,3 +17,18 @@ $ npm install
 ```
 $ react-native run-android
 ```
+
+## Run for IOS
+
+### Method One
+
+* Open the project in XCode from ios/NativeStarterKit.xcodeproj
+* Hit the play button.
+
+### Method Two
+
+Run the following command in your terminal
+
+```
+$ react-native run-ios
+```
