@@ -22,7 +22,7 @@ $ react-native run-android
 
 ### Method One
 
-* Open the project in XCode from ios/NativeStarterKit.xcodeproj
+* Open the project in XCode from ios/RNTest.xcodeproj
 * Hit the play button.
 
 ### Method Two
